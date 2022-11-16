@@ -300,12 +300,12 @@ function internQuestions() {
 function writeFile(team) {
     // console.log("Finished team", team)
   const htmlFile = HTMLgen(team);
-  console.log(htmlFile)
+//   console.log(htmlFile)
 
-//   fs.writeFile("./dist/index.html", createHTMLFile, (err) => {
-//     if (err) throw new Error(err);
-//     console.log("index.html created!");
-//   });
+  fs.writeFile("./dist/index.html", htmlFile, (err) => {
+    if (err) throw new Error(err);
+    console.log("index.html created!");
+  });
 };
 
 
