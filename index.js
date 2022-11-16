@@ -35,8 +35,8 @@ const quickTeam = [ManagerO, EngineerO, internO];
 const team = []
 
 function devDoor(){
-    team = quickTeam
-    writeFile(team)
+
+    writeFile(quickTeam)
 }
 
 function init() {
@@ -300,6 +300,7 @@ function internQuestions() {
 function writeFile(team) {
     // console.log("Finished team", team)
   const htmlFile = HTMLgen(team);
+  console.log(htmlFile)
 
 //   fs.writeFile("./dist/index.html", createHTMLFile, (err) => {
 //     if (err) throw new Error(err);
