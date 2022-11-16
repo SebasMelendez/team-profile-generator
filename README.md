@@ -4,6 +4,10 @@
 ## Description
 
   This is a profile generator made with node
+
+  watch a video demo [here](https://streamable.com/5d6hbl)
+
+  ![image](./Screenshot%202022-11-16%20165835.jpeg)
   
 ### Made with:
   
